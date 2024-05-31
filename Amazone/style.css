@@ -1,0 +1,83 @@
+header{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    position: fixed;
+    top: 0px;
+        
+}
+#navbar{
+    height: 60px;
+    background-color:#0f1111;
+    border: white;
+
+
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+#logo a:hover{
+    width: 20px;
+    height: 10px;
+    background-color: #f08804;
+    color: #0f1111;
+
+}
+a{
+    margin: 10% 5%;
+
+}
+.box1,.box2,.box3{
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+left: 300px;
+font-style: inherit;
+position: relatives;
+top: 20px;
+
+}
+#content{
+    height: 500px;
+}
+
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(189, 8, 245);
+    margin: 10px;
+    padding: 20px;
+    background-image: url("men.jpg");
+    background-size: cover;
+}
+.box2{
+    height: 100px; 
+    width: 100px;
+    background-color:rgb(7, 247, 47);
+    margin: 10px;
+    padding: 20px;
+    background-image: url("female.jpg");
+    background-size: cover;
+
+}.box3{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(8, 23, 236);
+    margin: 10px;
+    padding: 20px;
+    background-image: url("kids1.jpg");
+    background-size: cover;
+}
+footer{
+    background-color: #0f1111;
+    color: aliceblue;
+}
+body{
+    background-image: url("web.jpg");
+    background-size: cover;
+}
